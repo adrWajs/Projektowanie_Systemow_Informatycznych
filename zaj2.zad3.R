@@ -2,6 +2,15 @@
 install.packages("wordcloud")
 library(wordcloud)
 
+install.packages("textTinyR")
+library(textTinyR)
+
+install.packages("qdap")
+library(qdap)
+
+freq_terms(text)
+
+
 # Wczytaj dane tekstowe
 # Wczytaj plik tekstowy z lokalnego dysku
 text <- readLines(file.choose())
