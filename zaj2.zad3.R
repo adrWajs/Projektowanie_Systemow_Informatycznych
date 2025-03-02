@@ -1,4 +1,4 @@
-# Tworzenie chmury słów za pomocą pakietu wordcloud
+# Tworzenie chmury słów za pomocą pakietu wordcloud i install packages
 install.packages("wordcloud")
 library(wordcloud)
 
